@@ -10,7 +10,7 @@
   <header>
 
     <!-- Menu de navegação-->
-    <nav class="navbar navbar-dark navbar-custom fixed-top" style="background-color: black;">
+    <nav class="navbar navbar-dark navbar-custom fixed-top" style="background-color: #343a40;">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Currículo </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +31,11 @@
         </div>
       </div>
     </nav>
+  
     <div>
-      <img src="img/img01.jpg" alt="minha foto" class="mx-auto mb-4">
+      <img src="img/foto do curriculo.jpeg" alt="minha foto" class="mx-auto mb-4" height="480px" width="450px" >
             <h1 class="text-5xl text-orange-500">Miguel Bizerra</h1>
-            <p class="text-lg">programador</p>
+            <h3 class="text-lg">Programador</h3>
     </div>
 </html>
 <section id="sobremim">
@@ -44,9 +45,9 @@
       <img src="img/img01.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Sobre Mim</h5>
-        <p class="card-text">Meu nome e Miguel Bizerra , tenho 16 anos e estou cursando tecnico em informatica na ETEC MCM.</p>
-        <p>Sou muito esforcado e trabalho bem em grupo, e estou disposto a me dedicar para o que for preciso.</p>
-        <p>Busco sempre melhorar meu conhecimento em programacao.</p>
+        <p class="card-text">Ola, meu nome e Miguel Bizerra , nascido em 24 de agosto de 2008, resido em SBC , em Sao Paulo.</p>
+        <p>Atualmente , estou cursando o ensino medio tecnico cokm habilitacao em informatica para internet na ETEC MCM , que fica localizada em Ribeirao Pires.</p>
+        <p>Este curso vem sendo muito importante para mim, </p>
       </div>
     </div>
   </div>
@@ -67,7 +68,7 @@
   </div>
 </section>
 
-<section id="habilidades">
+<section id="habilidades" >
   <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -90,7 +91,7 @@
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
     <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style="background-color: #343a40;">
       <!-- Left -->
       <div class="me-5 d-none d-lg-block">
         <span>Contato</span>
@@ -113,34 +114,41 @@
     <!-- Aqui fica o CSS -->
 
     <style>
-      .body {
+      body {
+      line-height: 1.6;
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      color: black;
-      margin: 0;
-    
+      padding: 0;
+      background-position: relative;
+      background-repeat: repeat; 
+      background-color: black;
+      font-family: "Roboto Slab", serif;
+      font-size: 19px;
        }
        h5{
       font-size: 1.5em;
       text-align: center;
        }
-       .div,img{
-        
-       }
+      
        .div,h1{
         font-size: 2.0em;
         text-align: center;
+        color: red;
        }
-       .div,p{
+       .div,h3{
         font-size: 1.5em;
         text-align: center;
+        color: white;
        }
        .div,img{
         display: flex;
         align-items: center;
         justify-content: center;
-
+        
        }
+       .div,span{
+        color: white;
+       }
+       
  
       
     </style>
