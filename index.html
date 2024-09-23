@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu curriculo</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
@@ -18,7 +19,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-list">
               <a class="nav-link" href="#sobremim">Sobre mim</a>
             </li>
             <li class="nav-item">
@@ -32,58 +33,49 @@
       </div>
     </nav>
   
-    <div>
-      <img src="img/foto do curriculo.jpeg" alt="minha foto" class="mx-auto mb-4" height="480px" width="450px" >
-            <h1 class="text-5xl text-orange-500">Miguel Bizerra</h1>
-            <h3 class="text-lg">Programador</h3>
+  </header>
+    
+    <div class="container">
+      <img src="img/foto do curriculo.jpeg" alt="minha foto" class="mx-auto mb-4" height="480px" width="450px" style="border-radius: 40px; ">
+        <h1 >Programador</h1>
+    
     </div>
-</html>
+    
+
+ 
 <section id="sobremim">
-     <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="img/img01.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Sobre Mim</h5>
-        <p class="card-text">Ola, meu nome e Miguel Bizerra , nascido em 24 de agosto de 2008, resido em SBC , em Sao Paulo.</p>
-        <p>Atualmente , estou cursando o ensino medio tecnico cokm habilitacao em informatica para internet na ETEC MCM , que fica localizada em Ribeirao Pires.</p>
-        <p>Este curso vem sendo muito importante para mim, </p>
+     
+      <div class="text-content">
+        <h5 class="titulo">Sobre Mim</h5>
+        <p>Ola, meu nome e Miguel Bizerra , nascido em 24 de agosto de 2008, resido em SBC , em Sao Paulo.</p>
+        <p>Atualmente , estou cursando o ensino medio tecnico com habilitacao em informatica para internet na ETEC MCM , que fica localizada em Ribeirao Pires.</p>
+        <p>Este curso vem sendo muito importante para mim,me trazendo uma base muito solida e bem estruturada que tem orientado meu desenvolvimento nesta area. </p>
       </div>
-    </div>
-  </div>
+    
 </section>
 
 <section id="experiencias">
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="img/img02.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Experiências</h5>
-        <p class="card-text">Desenvolvimento de um site - Desenvolvi um site a base de html e css no comeco deste ano </p>
+  
+      <div class="text-content">
+        <h5 class="titulo">Experiências</h5>
+        <p>Desenvolvimento de um site - Desenvolvi um site a base de html e css no comeco deste ano </p>
         <p>Conhecimento em projetos- Tenho conhecimento em Kanban, Scrum e BPMN  e uso para gerenciamento de projetos </p>
         <p>Estudo na ETEC - Hoje eu estudo nessa escola renomada que e a etec , e la estou cada vez mais me aprofundando em meus conhecimentos em programacao</p>
       </div>
-    </div>
-  </div>
+    
 </section>
 
 <section id="habilidades" >
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="img/img03.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Habilidades</h5>
-        <p class="card-text">HTML</p>
+  
+      <div class="text-content">
+        <h5 class="titulo">Habilidades</h5>
+        <p>HTML</p>
         <p>CSS</p>
         <p>Logica de programacao com python</p>
         <p>Kanban, Scrum e BPMN</p>
         <p>Facilidade em trabalho em equipe</p>
       </div>
-    </div>
-  </div>
-</div>
+    
 </section>
 
 <hr>
@@ -108,53 +100,7 @@
         </a>
       </div>
       <!-- Right -->
-    </section>
-    
-
-    <!-- Aqui fica o CSS -->
-
-    <style>
-      body {
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-position: relative;
-      background-repeat: repeat; 
-      background-color: black;
-      font-family: "Roboto Slab", serif;
-      font-size: 19px;
-       }
-       h5{
-      font-size: 1.5em;
-      text-align: center;
-       }
-      
-       .div,h1{
-        font-size: 2.0em;
-        text-align: center;
-        color: red;
-       }
-       .div,h3{
-        font-size: 1.5em;
-        text-align: center;
-        color: white;
-       }
-       .div,img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-       }
-       .div,span{
-        color: white;
-       }
-       
- 
-      
-    </style>
-  
-    
-      
+   
   
   <script src="js/bootstrap.js"></script>
 </body>
